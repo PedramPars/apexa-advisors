@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Validations_PhoneShouldBe8Digits" xml:space="preserve">
+        <value>Phone should be 8 digits</value>
+    </data>
+    <data name="Validations_AddressShouldBeLessThan255Characters" xml:space="preserve">
+        <value>Address should be less than 255 characters.</value>
+    </data>
+    <data name="Validations_NameShouldBeLessThan255Characters" xml:space="preserve">
+        <value>Name should be less than 255 characters.</value>
+    </data>
+    <data name="Validations_SinIsInvalid" xml:space="preserve">
+        <value>Social identity number is invalid</value>
+    </data>
+    <data name="Validations_AdvisorNotFound" xml:space="preserve">
+        <value>Advisor not found.</value>
+    </data>
+    <data name="Validations_NameIsRequired" xml:space="preserve">
+        <value>Name is required.</value>
+    </data>
+    <data name="Validations_SinIsRequired" xml:space="preserve">
+        <value>Social identity number is required.</value>
+    </data>
+    <data name="validations_SinAlreadyExists" xml:space="preserve">
+        <value>Social identity number already exists</value>
+    </data>
+</root>

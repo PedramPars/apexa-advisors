@@ -1,0 +1,23 @@
+<h2>Advisors</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>SIN</th>
+      <th>Health Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let advisor of advisors">
+      <td>{{ advisor.name }}</td>
+      <td>{{ advisor.sin }}</td>
+      <td>{{ advisor.healthStatus }}</td>
+      <td>
+        <button class="btn btn-primary btn-sm" (click)="editAdvisor(advisor.id)">Edit</button>
+        <button class="btn btn-danger btn-sm" (click)="deleteAdvisor(advisor.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<button class="btn btn-success" (click)="createAdvisor()">Create New Advisor</button>
